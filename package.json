@@ -2,7 +2,7 @@
   "name": "react-native-phone-input",
   "version": "0.2.4",
   "description": "Phone input box for React Native",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,9 +24,9 @@
     "android"
   ],
   "dependencies": {
-    "google-libphonenumber": "^3.2.2",
-    "lodash": "^4.17.4",
-    "prop-types": "^15.5.10"
+    "google-libphonenumber": "3.2.2",
+    "lodash": "4.17.15",
+    "prop-types": "15.5.10"
   },
   "peerDependencies": {
     "react-native": ">= 0.25"
